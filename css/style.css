@@ -1,0 +1,331 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.max-size
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.mt-30
+{
+    margin-top: 30px;
+}
+
+.mr-30
+{
+	margin-right: 30px;
+}
+
+/***
+***		HEADER
+***/
+
+.header
+{	
+	background: url(../img/backgroud-header.png) no-repeat center center fixed;
+    min-height: 500px; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.menu
+{
+	background-color: #1976D2;
+	font-family: 'Roboto Condensed', sans-serif;
+    width: 720px;
+    float: right;
+}
+
+.menu ul 
+{
+	display: inline;
+	background-color: #1976D2;
+}
+
+.menu li
+{
+	list-style: none;
+	display: inline;
+}
+
+.menu li a
+{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #1976D2;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 30px;
+	font-size: 18px;	
+}
+
+.menu li a:hover
+{
+	background-color: #2196F3;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.logo-saads{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/***
+***		SLIDER
+***/
+
+.slider {
+    width: 100%;
+}
+
+.slider .carousel-inner .item img {
+    width: 100%;
+}
+
+/***
+***		CONTEUDO
+***/
+
+.information
+{
+	min-height: 450px;
+}
+
+.cards
+{
+    padding: 30px 15px;
+	background-color: #1976D2; 
+	font-family: 'Inconsolata', monospace !important;
+    height: 650px;
+}
+
+.cards h3
+{
+    margin-left: 15px;
+}
+
+.cards h3 i
+{
+	font-size: 36px;
+}
+
+.cards p
+{	
+	font-family: 'Inconsolata', monospace;
+	background-color: transparent; 
+	font-size: 16px;
+	color: #fff;
+	max-width: 80%;
+	margin: auto;
+	vertical-align: middle;	
+	text-align: center;
+}
+
+.title
+{
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+}
+
+.btn-confirm
+{
+	height: 50px;
+	background-color: #2196F3; 
+	color: #fff;
+	border-color: #2196F3;
+	font-size: 24px;
+}
+
+.txt
+{
+	height: 45px !important;
+}
+
+.eventos
+{
+	margin: 10px auto;
+	text-align: center;
+    padding: 10px;
+}
+
+.date
+{
+	border-radius:30px; 
+	background-color: #fff;
+	width: 60px;
+	height: 60px;
+	color: #1976D2;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 30%
+}
+
+.date span
+{	
+	margin: auto;
+	vertical-align: middle;	
+	line-height: 15px;
+}
+
+.date span.day
+{
+	font-size: 28px;
+	margin-top: 5px;
+}
+
+.date span.month
+{
+	font-size: 16px;
+}
+
+.itens-evento
+{
+	float: right;
+	text-align: left;	
+	margin-left: 10px;
+	line-height: 15px;
+}
+
+.itens-evento ul
+{
+	list-style: none;
+	color: #fff;
+}
+
+.itens-evento ul li span.time
+{
+	margin-right: 10px;
+}
+
+.maps
+{
+	height: 400px;
+}
+
+.footer
+{	
+	height: 260px;
+	background-color: #1976D2;
+}
+
+.menu-footer
+{
+	background-color: #2196F3;
+	height: 70px;
+	text-align: center;
+}
+
+.menu-footer ul 
+{
+	display: inline;
+	background-color: #2196F3;
+}
+
+.menu-footer li
+{
+	list-style: none;
+	display: inline;
+}
+
+.menu-footer li a
+{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #2196F3;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 18px;	
+}
+
+.content-footer
+{
+	width: 50%;
+	height: 120px;
+	margin: auto;
+	vertical-align: middle;	
+	font-size: 23px;
+	color: #fff;
+}
+
+.content-footer a
+{
+	color: #fff;
+}
+
+.link-facebook
+{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	margin-top: 30px
+}
+
+.link-email
+{
+	float: right;
+	width: 50%;
+	text-align: center;
+	margin-top: 30px
+}
+
+.subfooter
+{
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.copyright
+{
+	display: inline-block;
+	width: 50%;
+}
+
+.right-by
+{
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+.icon-saads
+{
+	display: inline-block;
+	margin-left: 20px; 
+}
+
+.develop-by
+{
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-top: 30px;	
+}
+
+.develop-by a
+{
+	color: #000;
+}
+
+.develop-by a:hover
+{
+	font-weight: bold;
+}
+
+.develop-by img
+{
+    margin-right: 30px;
+}

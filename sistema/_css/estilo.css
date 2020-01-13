@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Verdana', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color: #fff;
+}
+
+
+body {
+	background-color: #222;
+	font-family: Verdana;
+	font-size: 100%;
+}
+
+.container {
+	margin: auto;
+	width: 1200px;
+	margin-top: 20px;
+
+}
+
+nav {
+	width: 300px;
+	height: 600px;
+	background-color: #444;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+
+}
+
+section {
+	background-color: #222;
+	font-family: Verdana;
+	font-size: 100%;
+
+
+	width: 870px;
+	max-width: auto;
+	min-height: 600px;
+	margin-left: 10px;
+	float: left;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+ul.menu {
+	list-style: none;
+}
+
+ul.menu li {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #777;
+	color: #fff;
+	margin-top: 5px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.btn {
+	min-width: 100px;
+	max-width: auto;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: #2a578b;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+}
+
+.campo 
+{
+	width: 300px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+article  {
+	width: 98%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #e4e4e4;
+	margin-bottom: 5px;
+	border: 1px solid black;
+}
+#btn_sair {
+	margin-left: 50px;
+}
+
+#confi {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+#confi .respo {
+	height:auto;
+	margin-right: 35px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#confi .respo #h5 {
+	width: auto;
+	font-size: 15px;
+}
+
+#confi .respo span .btnN {
+	width: 60px;
+	height: 30px;
+	margin-right: 8px;
+	border: 1px solid #ddd;
+	background-color: red;
+	cursor: pointer;
+	color: #fff;
+}
+
+#confi .respo span .btnS {
+	width: 60px;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: green;
+	cursor: pointer;
+	color: #fff;
+}
+
+#btnSairCur {
+	display: flex;
+	margin: -10px auto 0px 650px;
+}
+
+.separa {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+

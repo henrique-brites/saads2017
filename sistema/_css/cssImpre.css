@@ -1,0 +1,32 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body div#impre {
+	padding: 25px 30px 25px 50px;
+	background-color: #fff;
+	font-family: Verdana;
+	font-size: 100%;
+	height: 100%;
+}
+
+
+a{
+	text-decoration:none;
+	color: #fff;
+}
+
+#btn_voltar {
+	margin-left: 50px;
+}
+
+.btn {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: #2a578b;
+	cursor: pointer;
+	color: #fff;
+}
